@@ -1,0 +1,26 @@
+.modal__wrapper{
+    position: absolute;
+    padding-bottom: 50px;
+    top: 40px;
+    width: 100%;
+    min-height: 100px;
+    background-color: rgba(40, 44, 52, 0.2);
+    backdrop-filter: blur(10px);
+}
+.modal__body{
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 250px;
+    top: 60px;
+    width: 50%;
+    min-height: 15vh;
+    backdrop-filter: blur(10px);
+}
+.modal__close{
+    text-align: right;
+    margin-top: -15px;
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+}
