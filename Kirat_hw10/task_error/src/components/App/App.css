@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-nav {
+  min-height: 500px;
+}
+
+ul li{
+  display: flex;
+  padding: 0 0 0 10px;
+} 
+
+a{
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.Menu-block {
+  padding: 20px;
+  height: 500px;
+  font-size: 20px;
+}
+.Error {
+  color: red;
+}
